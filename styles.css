@@ -6,14 +6,18 @@ h1 {
 
 
 .navigation {text-align: center;
-  margin: 85px auto 45px;}
+  margin: 85px auto 45px;
+}
 
-.content {font-size: 12px;
-  line-height: 13px;
-  margin: 15px 4%;}
+.content {font-family: Pacifico, Anton;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em;
+}
 
 .footer {font-size: 18px;
   line-height: 24px;
   margin-left: 30px;
-  opacity: .8;}
+  opacity: .8;
+}
 
