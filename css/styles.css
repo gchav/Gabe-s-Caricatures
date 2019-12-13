@@ -2,14 +2,20 @@ h1 {
   font-size: 25px;
   color: black;
   text-align: center;
-  @media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 480px) {
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 216px;}
 }
-nav {break-before: 
-}
 
-}
+@media screen and (min-width: 350px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+} 
+
+@media screen and (max-width: 480px) {
+  body{ background-color: green; }
+} 
 p {
   background-color: pink;
   width: 300px;
@@ -17,27 +23,33 @@ p {
   padding: 50px;
   margin: 20px;
 }
-image {width: 100%
+image {
+  width: 100%
 }
 
-.navigation {text-align: center;
+.navigation {
+  text-align: center;
   margin: 85px auto 45px;
 }
 
-.content {font-family: Pacifico, Anton;
+.content {
+  font-family: Pacifico, Anton;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.65em;
 }
 
-.footer {font-size: 12px;
+.footer {
+  font-size: 12px;
   line-height: 24px;
   margin-left: 30px;
   opacity: .8;
 }
 
-.footer .footerbottom {font-size: 12px;
+.footer .footerbottom {
+  font-size: 12px;
   line-height: 50px;
   margin-left: 20px;
   opacity: .2;
-  text-align: center;}
+  text-align: center;
+}
